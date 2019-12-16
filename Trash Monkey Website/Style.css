@@ -1,0 +1,120 @@
+@import "https://fonts.googleapis.com/css?family=Fredoka+One&display=swap";
+@import "https://fonts.googleapis.com/css?family=Didact+Gothic&display=swap";
+
+h1 {
+  font-size: 65px;
+  color: #E6EAEC;
+  font-family: 'Fredoka One', cursive;
+  text-align: left;
+  margin-left: 35px;
+  padding-top: 5px;
+}
+
+body {
+  background-color: #E6EAEC;
+}
+
+
+#my-game{
+  padding-left: 450px;
+   }
+
+.button-bar {
+  width: 1372.5px;
+  height: 90px;
+  background-image: url('./junglebckgrnd.jpg');
+  background-position: center;
+  position: relative;
+  top: -50px;
+  margin-left: -15px;
+}
+
+.button {
+  font-size: 20px;
+  float: right;
+  color: #E6EAEC;
+  font-family: 'Didact Gothic', sans-serif;
+  margin: 35px;
+  margin-left: -10px;
+  font-weight: bold;
+}
+
+.button a {
+  color: #E6EAEC;
+  padding-bottom: 10px;
+}
+
+.button-u {
+  font-size: 20px;
+  float: right;
+  color: #E6EAEC;
+  font-family: 'Didact Gothic', sans-serif;
+  margin: 35px;
+  margin-left: -10px;
+  border-bottom: solid 2px #E6EAEC;
+  font-weight: bold;
+}
+
+.button-u a {
+  color: #E6EAEC;
+  padding-bottom: 10px;
+}
+
+.download-text {
+  float: right;
+  width: 500px;
+  flex-wrap: wrap;
+  text-align: center;
+  font-size: 40px;
+  margin-right: -185px;
+}
+
+.download-btn {
+  background-color: #55BAE0;
+  width: 275px;
+  height: 55px;
+  color: #E6EAEC;
+  font-size: 15px;
+  font-family: 'Didact Gothic', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 10px;
+  position: relative;
+  left: 105px;
+  top: -25px;
+  padding-top: 5px
+}
+
+h2 {
+  display: inline-block;
+  font-size: 35px;
+  margin-top: 0px;
+  width: 262.5;
+  flex-wrap: wrap;
+}
+
+.events {
+  justify-content: center;
+}
+
+.event-img {
+  float: left !important;
+  margin-left: -550px;
+}
+
+.event-p {
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  color: #55BAE0;
+  margin-top: -40px;
+}
+
+a {
+  text-decoration: none;
+  color: #E6EAEC;
+}
+
+.clear {
+  clear: both;
+}
